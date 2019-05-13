@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" verbose="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testcases.TC001_LogInLogOut">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="logInLogOut" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.TC001_LogInLogOut -->
+      <class name="testcases.TC002_LogInFailer">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="loginFail" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.TC002_LogInFailer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

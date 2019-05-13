@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="4" total="8" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17513" started-at="2019-03-06T12:55:15Z" finished-at="2019-03-06T12:55:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17513" started-at="2019-03-06T12:55:15Z" finished-at="2019-03-06T12:55:33Z">
+      <class name="testcases.TC002_LogInFailer">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC002_LogInFailer@67b467e9]" name="setData" is-config="true" duration-ms="0" started-at="2019-03-06T12:55:15Z" finished-at="2019-03-06T12:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC002_LogInFailer@67b467e9]" name="beforeMethod" is-config="true" duration-ms="7756" started-at="2019-03-06T12:55:16Z" finished-at="2019-03-06T12:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginFail(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_LogInFailer@67b467e9]" name="loginFail" duration-ms="435" started-at="2019-03-06T12:55:23Z" data-provider="fetchData" finished-at="2019-03-06T12:55:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:34)
+at utils.Reporter.reportStep(Reporter.java:44)
+at wdMethods.SeMethods.verifyTitle(SeMethods.java:197)
+at pages.LoginPage.<init>(LoginPage.java:20)
+at testcases.TC002_LogInFailer.loginFail(TC002_LogInFailer.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_LogInFailer@67b467e9]" name="afterMethod" is-config="true" duration-ms="2294" started-at="2019-03-06T12:55:24Z" finished-at="2019-03-06T12:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC002_LogInFailer@67b467e9]" name="beforeMethod" is-config="true" duration-ms="4866" started-at="2019-03-06T12:55:26Z" finished-at="2019-03-06T12:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginFail(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_LogInFailer@67b467e9]" name="loginFail" duration-ms="373" started-at="2019-03-06T12:55:31Z" data-provider="fetchData" finished-at="2019-03-06T12:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:34)
+at utils.Reporter.reportStep(Reporter.java:44)
+at wdMethods.SeMethods.verifyTitle(SeMethods.java:197)
+at pages.LoginPage.<init>(LoginPage.java:20)
+at testcases.TC002_LogInFailer.loginFail(TC002_LogInFailer.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_LogInFailer@67b467e9]" name="afterMethod" is-config="true" duration-ms="1287" started-at="2019-03-06T12:55:31Z" finished-at="2019-03-06T12:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC002_LogInFailer -->
+      <class name="testcases.TC001_LogInLogOut">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="beforeSuite" is-config="true" duration-ms="211" started-at="2019-03-06T12:55:15Z" finished-at="2019-03-06T12:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-06T12:55:15Z" finished-at="2019-03-06T12:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="setData" is-config="true" duration-ms="0" started-at="2019-03-06T12:55:15Z" finished-at="2019-03-06T12:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="beforeMethod" is-config="true" duration-ms="7751" started-at="2019-03-06T12:55:16Z" finished-at="2019-03-06T12:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="logInLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="logInLogOut" duration-ms="431" started-at="2019-03-06T12:55:23Z" data-provider="fetchData" finished-at="2019-03-06T12:55:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:34)
+at utils.Reporter.reportStep(Reporter.java:44)
+at wdMethods.SeMethods.verifyTitle(SeMethods.java:197)
+at pages.LoginPage.<init>(LoginPage.java:20)
+at testcases.TC001_LogInLogOut.logInLogOut(TC001_LogInLogOut.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="afterMethod" is-config="true" duration-ms="2302" started-at="2019-03-06T12:55:24Z" finished-at="2019-03-06T12:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="beforeMethod" is-config="true" duration-ms="4800" started-at="2019-03-06T12:55:26Z" finished-at="2019-03-06T12:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="logInLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="logInLogOut" duration-ms="390" started-at="2019-03-06T12:55:31Z" data-provider="fetchData" finished-at="2019-03-06T12:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:34)
+at utils.Reporter.reportStep(Reporter.java:44)
+at wdMethods.SeMethods.verifyTitle(SeMethods.java:197)
+at pages.LoginPage.<init>(LoginPage.java:20)
+at testcases.TC001_LogInLogOut.logInLogOut(TC001_LogInLogOut.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="afterMethod" is-config="true" duration-ms="1296" started-at="2019-03-06T12:55:31Z" finished-at="2019-03-06T12:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-06T12:55:33Z" finished-at="2019-03-06T12:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_LogInLogOut@10a035a0]" name="afterSuite" is-config="true" duration-ms="249" started-at="2019-03-06T12:55:33Z" finished-at="2019-03-06T12:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC001_LogInLogOut -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
